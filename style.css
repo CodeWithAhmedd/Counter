@@ -81,7 +81,7 @@ button:hover {
 }
 
 button:active {
-  border-color: rgb(34, 128, 0);
+  border-color: rgb(255, 255, 255);
 }
 
 .button::after,

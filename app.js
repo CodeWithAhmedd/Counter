@@ -6,10 +6,10 @@ add.addEventListener("click", function () {
 
   output.innerText = result;
   if (result % 2 === 0) {
-    output.style.backgroundColor = "#ffcc00";
+    output.style.backgroundColor = "#ffffff";
     output.style.animation = "float 3.5s ease-in-out infinite"; // Change color if result is even
   } else {
-    output.style.backgroundColor = "#00bb00";
+    output.style.backgroundColor = "#ffffff";
     output.style.animation = "none";
   }
 });
@@ -22,20 +22,20 @@ subtract.addEventListener("click", function() {
 
     if (result < 0) {
         output.innerText = "0";
-        output.style.backgroundColor = "red";
+        output.style.backgroundColor = "white";
         output.style.animation = "none"; // Remove animation if result is negative
     } else if (result % 2 === 0) {
         output.style.animation = "float 3.5s ease-in-out infinite";
-        output.style.backgroundColor = "#ffcc00"; // Change color if result is even
+        output.style.backgroundColor = "white"; // Change color if result is even
     } else {
-        output.style.backgroundColor = "#00bb00";
+        output.style.backgroundColor = "white";
         output.style.animation = "none";
     }
 });
 
 function reset() {
     output.innerText = "0";
-    output.style.backgroundColor = "#00bb00";
+    output.style.backgroundColor = "#ffffff";
     output.style.animation = "none";
 }
 
